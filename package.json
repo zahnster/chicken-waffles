@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [
     "Chicken",
@@ -17,8 +19,10 @@
   "author": "Jade Pennig <jade@pennig.name>",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.4",
     "next": "^4.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-masonry-component": "^6.0.2"
   }
 }
